@@ -1,0 +1,231 @@
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3EDE2;
+    color: #554637;
+}
+
+/* =========================
+   LOGIN CONTAINER
+========================= */
+
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* =========================
+   LOGIN CARD
+========================= */
+
+.login-card {
+    width: 100%;
+    max-width: 525px;
+    padding: 30px;
+    background-color: #FFFEFA;
+    border-radius: 24px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+.login-card h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #554637;
+}
+
+.subtitle {
+    color: #8B7B68;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   FORM ELEMENTS
+========================= */
+
+.form-label {
+    font-weight: 600;
+    color: #554637;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    height: 58px;
+    border: 1px solid #DED5C8;
+    border-radius: 12px;
+    padding: 12px 18px;
+    background-color: #FFFEFA;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #76624D;
+    box-shadow: none;
+}
+
+/* =========================
+   LOGIN BUTTON
+========================= */
+
+.login-btn {
+    height: 60px;
+    background-color: #76624D;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-top: 8px;
+    border: none;
+}
+
+.login-btn:hover {
+    background-color: #5D4B39;
+    color: white;
+}
+
+/* =========================
+   MESSAGES
+========================= */
+
+.error-message {
+    color: #B42318;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-text {
+    text-align: center;
+    color: #A49A8D;
+    margin-top: 22px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 576px) {
+
+    .login-container {
+        padding: 15px;
+    }
+
+    .login-card {
+        padding: 25px 20px;
+    }
+
+    .login-card h1 {
+        font-size: 29px;
+    }
+}
+
+
+.dashboard-card {
+    background-color: #FFFEFA;
+    border: 1px solid #DED5C8;
+    border-radius: 16px;
+    padding: 22px;
+    height: 100%;
+}
+
+.dashboard-card p {
+    color: #8B7B68;
+    margin-bottom: 10px;
+}
+
+.dashboard-card h3 {
+    color: #554637;
+    font-weight: 600;
+}
+
+
+/* AcxiomCRM Dashboard */
+
+.crm-dashboard {
+    background-color: #F3EDE2;
+    color: #554637;
+}
+
+.crm-navbar {
+    background-color: #FFFEFA;
+    border-bottom: 1px solid #DED5C8;
+}
+
+.crm-navbar h4 {
+    color: #554637;
+    font-weight: 700;
+}
+
+.logout-btn {
+    background-color: #76624D;
+    color: white;
+    border-radius: 9px;
+    padding: 8px 18px;
+}
+
+.logout-btn:hover {
+    background-color: #5D4B39;
+    color: white;
+}
+
+.dashboard-card {
+    background-color: #FFFEFA;
+    border: 1px solid #DED5C8;
+    border-radius: 16px;
+    padding: 22px;
+    height: 100%;
+}
+
+.dashboard-card p {
+    color: #8B7B68;
+    margin-bottom: 10px;
+}
+
+.dashboard-card h3 {
+    color: #554637;
+    font-weight: 600;
+}
+
+.dashboard-card h5 {
+    margin-bottom: 20px;
+    color: #554637;
+}
+
+.module-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.module-card {
+    transition: background-color 0.15s ease;
+}
+
+.module-card:hover {
+    background-color: #F8F3EA;
+}
+
+.module-card small {
+    color: #8B7B68;
+}
+
+.footer-text {
+    color: #A49A8D;
+}
